@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+</head>
+    <h1>
+        Sign up
+    </h1>
+<body>
+    <div>
+        <form action="" method="post">
+
+            <label for="first_name">First name: </label>
+            <input type="text"
+                name="first_name"
+                placeholder="Peter">
+
+            <label for="surname">Surname: </label>
+            <input type="text"
+               name="surname" 
+               placeholder="Smith">
+
+            <label for="title">Title: </label>
+            <input type="text"
+                name="title"
+                placeholder="Ing.">
+
+            <label for="email">Email: </label>
+            <input type="email"
+                name="email"
+                placeholder="peter.smith@gmail.com">
+
+            <label for="phone_number">Phone number: </label>    
+            <input type="text" 
+                name="phone_number" 
+                id="phone_number"
+                placeholder="704456156">
+
+            <label for="rodne_cislo">Rodné číslo: </label>
+            <input type="text" 
+                name="rodne_cislo" 
+                id="rodne_cislo" 
+                placeholder="8501011234">
+
+            <label for="password">Password: </label>
+            <input type="password" 
+                name="password" 
+                id="password"
+                placeholder="Your unique password">
+
+            <label for="confirm_password">Confirm password: </label>
+            <input type="password" 
+                name="confirm_password" 
+                id="confirm_password"
+                placeholder="The same unique password"> <!-- if pro potvrzeni hesla -->
+
+            <input type="checkbox" 
+                name="gdpr_confirmation" 
+                id="gdpr_confirmation">
+            <label for="gdpr_confirmation">I agree with <a href="">Terms of service</a></label> <!-- vyskakovaci okno pro terms of service -->
+
+            <input type="button" value="Sign up"> <!-- vyskakovaci okno pro opetovne potvrzeni, ze se pacient prihlasi -->
+        </form>
+
+        jmeno
+        prijmeni
+        titul
+        email
+        tel cislo
+        rodne cislo
+        --------------
+        heslo (min. 8 znaku, velke pismeno a jednu cislici)
+        potvrzeni hesla
+        --------------
+        souhlasim se zpracovanim udaju a check box
+        --------------
+        registrovat se button 
+        (s registraci se vytvori vyskakovaci okno k dvojitemu potvrzeni, ze opravdu chci registrovat)
+    </div>
+    
+</body>
+</html>
